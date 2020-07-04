@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Lyrics Player</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,400,600'>
+      <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="content">
+  <div class="lyrics"></div>
+</div>
+<div class="player">
+   <div class="left"></div>
+   <div class="right">
+      <div class="top">
+         <button onclick="enableAutoplay()" type="button">게임 시작!</button>
+         <span class="song" id="keys" class="highlighted"></span>
+         <span class="song">곰 세마리 - 려리군</span>
+         <span class="artist" id="grade"></span>
+      </div>
+      <div class="bottom">
+         <!--video controls="" _autoplay="" name="media"><source src="https://i.koya.io/Kero%20Kero%20Bonito%20-%20Let's%20Go%20To%20The%20Forest.mp3" type="audio/mpeg"--><!--/video-->
+         <video id="myVideo" name="media"><source src="gom3mari.mp3" type="audio/mpeg"></video>
+      </div>
+   </div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="./script.js"></script>
+<script>
+</script>
+</body>
+</html>
