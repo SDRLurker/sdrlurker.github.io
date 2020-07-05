@@ -60,7 +60,7 @@ body .player {
 }
 body .player .left {
   width: 90px;
-  background-image: url("gom3mari.PNG");
+  background-image: "gom3mari.PNG";
   background-size: cover;
 }
 body .player .right {
